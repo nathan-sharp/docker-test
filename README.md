@@ -1,7 +1,14 @@
-Git clone
-
-<code> git clone https://github.com/nathan-sharp/docker-test </code>
-
+Clone this repo
+```
+git clone https://github.com/nathan-sharp/docker-test
+```
+Navigate to the container folder
+```
+cd docker-test
+```
 Build container
+```
+docker compose up -d
+```
 
-<code> docker build -t docker-test . </code>
+Then navigate to http://localhost:8000  
